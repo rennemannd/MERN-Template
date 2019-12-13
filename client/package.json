@@ -1,5 +1,5 @@
 {
-  "name": "react_template_repo",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +16,10 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "devDependencies": {
+    "react-router-dom": "^5.1.2"
+  },
+  "proxy": "http://localhost:5000",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -27,9 +31,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "react-router-dom": "^5.1.2"
-  },
-  "proxy": "http://localhost:5000"
+  }
 }
